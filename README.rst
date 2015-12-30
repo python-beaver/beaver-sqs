@@ -1,4 +1,4 @@
-.. image:: https://travis-ci.org/python-beaver/beaver-sqs?branch=master
+.. image:: https://travis-ci.org/python-beaver/beaver-sqs.svg?branch=master
     :target: https://travis-ci.org/python-beaver/beaver-sqs
 
 .. image:: https://coveralls.io/repos/python-beaver/beaver-sqs/badge.svg?branch=master&service=github
