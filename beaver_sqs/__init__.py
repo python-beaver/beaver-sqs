@@ -8,10 +8,10 @@ from beaver.transports.exception import TransportException
 from sys import getsizeof
 
 
-class SqsTransport(BaseTransport):
+class Transport(BaseTransport):
 
     def __init__(self, beaver_config, logger=None):
-        super(SqsTransport, self).__init__(beaver_config, logger=logger)
+        super(Transport, self).__init__(beaver_config, logger=logger)
 
         self._access_key = beaver_config.get('sqs_aws_access_key')
         self._secret_key = beaver_config.get('sqs_aws_secret_key')
