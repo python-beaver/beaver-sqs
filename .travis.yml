@@ -1,8 +1,8 @@
 sudo: false
 language: python
 env:
+    - TOXENV=py26
     - TOXENV=py27
-    - TOXENV=py34
 install:
     - ./tests/setup_aws.sh
     - pip install -e .[test]
