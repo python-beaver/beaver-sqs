@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import sys
 try:
     import unittest2 as unittest
 except ImportError:
